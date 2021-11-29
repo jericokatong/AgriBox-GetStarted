@@ -16,8 +16,7 @@ html {
 }
 
 .navbar-brand img {
-    height: 10%;
-    width: 80%;
+    height: 3.5rem;
 }
 
 .nav-link {
@@ -71,15 +70,15 @@ html {
     background-color: #A9732A;
     border: 1px solid white;
     color: white;
-    padding: 0.6rem 3rem;
-    width: 50%;
-    
+    width: 50%;   
+    height: 20%;
 }
 
 
 /* Bagian akhir jumbotron */
 
 @media (min-width: 992px) {
+
 
     .jumbotron img {
         width: 120%;
@@ -88,15 +87,22 @@ html {
     .mobile-img {
         display: none;
     }
+
+    
+    .tombol-cari {
+        border-radius: 34px;
+        background-color: #A9732A;
+        border: 1px solid white;
+        color: white;
+        padding: 0.6rem 3rem;
+        width: 50%;   
+    }
 }
 
 @media (max-width: 991px) {
-      .navbar-brand img {
-        height: 10%;
-        width: 40%;
-    }
-    
-      .desktop-img{
+ 
+
+    .desktop-img{
         display: none !important;
     }
 
@@ -110,5 +116,40 @@ html {
     .jumbotron {
         text-align: center;
     }
+
+    .box h4{
+        color: #A9732A;
+        font-weight: 400;
+        font-family: 'Secular One', sans-serif;
+        font-size: 4vw;
+    }
+
+    .box h1 {
+        color: #006843;
+        font-weight: bolder;
+        font-size: 7vw;
+    }
+    
+    .box p {
+        font-family: 'Scope One', serif;
+        font-size: 3vw;
+    }
+    
+    .box a {
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 12vw;
+    }
+
+    .navbar a {
+        color: white !important;
+        font-size: 3vw;
+    }
+
 
 }
