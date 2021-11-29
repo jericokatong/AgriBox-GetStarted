@@ -93,10 +93,7 @@ html {
 @media (max-width: 991px) {
       .navbar-brand img {
         height: 10%;
-        width: 50%;
-        margin-right: 0;
-        padding: 0;
-        display: inline;
+        width: 40%;
     }
 
     .mobile-img img {
