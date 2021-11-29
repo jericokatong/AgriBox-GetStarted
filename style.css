@@ -95,6 +95,10 @@ html {
         height: 10%;
         width: 40%;
     }
+    
+      .desktop-img{
+        display: none !important;
+    }
 
     .mobile-img img {
         width: 70%;
